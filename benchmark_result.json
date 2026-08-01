@@ -1,0 +1,1308 @@
+[
+  {
+    "case_id": "A-01",
+    "category": "E01",
+    "with_memory": false,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.462465286254883,
+    "tokens": 147,
+    "response_text": "{\n  \"vulnerability\": \"缓冲区溢出\",\n  \"description\": \"某厂商的内部邮件系统存在缓冲区溢出漏洞，攻击者可通过发送特制附件触发远程代码执行。\",\n  \"affected_versions\": \"3.x 系列全部版本\",\n  \"attack_vector\": \"发送特制附件\",\n  \"impact\": \"远程代码执行\"\n}",
+    "error": null
+  },
+  {
+    "case_id": "A-01",
+    "category": "E01",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.722464561462402,
+    "tokens": 709,
+    "response_text": "```json\n{\n  \"cve\": null,\n  \"unrelated\": false,\n  \"affected_component\": \"内部邮件系统\",\n  \"affected_versions\": [\"3.x 系列全部版本\"],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": \"NETWORK\",\n  \"summary\": \"某厂商的内部邮件系统存在缓冲区溢出漏洞，攻击者可通过发送特制附件触发远程代码执行。受影响版本：3.x 系列全部版本。\",\n  \"evidence\": [\n    \"某厂商的内部邮件系统存在缓冲区溢出漏洞，攻击者可通过发送特制附件触发远程代码执行。\",\n    \"受影响版本：3.x 系列全部版本。\"\n  ]\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-02",
+    "category": "E02",
+    "with_memory": false,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.131578207015991,
+    "tokens": 201,
+    "response_text": "{\n  \"cve_id\": \"CVE-2021-44228\",\n  \"vulnerability_type\": \"JNDI注入\",\n  \"affected_component\": \"Apache Log4j2\",\n  \"attack_vector\": \"通过控制日志消息或日志消息参数\",\n  \"impact\": \"执行从LDAP服务器加载的任意代码\",\n  \"fixed_version\": \"2.17.0 (Java 8)\"\n}",
+    "error": null
+  },
+  {
+    "case_id": "A-02",
+    "category": "E02",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 5.133468389511108,
+    "tokens": 827,
+    "response_text": "```json\n{\n  \"cve\": \"CVE-2021-44228\",\n  \"unrelated\": false,\n  \"affected_component\": \"Apache Log4j2\",\n  \"affected_versions\": [],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": null,\n  \"summary\": \"CVE-2021-44228: Apache Log4j2 中的 JNDI 注入漏洞。当消息查找替换启用时，攻击者可以通过控制日志消息或日志消息参数来执行从 LDAP 服务器加载的任意代码。从 Log4j 2.17.0 (Java 8) 修复。\",\n  \"evidence\": [\n    \"CVE-2021-44228: Apache Log4j2 中的 JNDI 注入漏洞。\",\n    \"当消息查找替换启用时，攻击者可以通过控制日志消息或日志消息参数来执行从 LDAP 服务器加载的任意代码。\",\n    \"从 Log4j 2.17.0 (Java 8) 修复。\"\n  ]\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-03",
+    "category": "E03",
+    "with_memory": false,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.304173707962036,
+    "tokens": 147,
+    "response_text": "{\"漏洞名称\":\"SQL注入漏洞\",\"漏洞类型\":\"SQL注入\",\"影响版本\":\"1.2.0 至 1.4.3\",\"修复版本\":\"1.4.4\",\"攻击方式\":\"构造特定URL参数\",\"影响\":\"绕过认证\",\"风险等级\":\"高危\"}",
+    "error": null
+  },
+  {
+    "case_id": "A-03",
+    "category": "E03",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 5.2186174392700195,
+    "tokens": 764,
+    "response_text": "```json\n{\n  \"cve\": null,\n  \"unrelated\": false,\n  \"affected_component\": \"某 Web 应用\",\n  \"affected_versions\": [\"1.2.0\", \"1.4.3\"],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": \"NETWORK\",\n  \"summary\": \"发现某 Web 应用存在 SQL 注入漏洞，可通过构造特定 URL 参数绕过认证。影响版本 1.2.0 至 1.4.3，已在 1.4.4 中修复。\",\n  \"evidence\": [\n    \"发现某 Web 应用存在 SQL 注入漏洞，可通过构造特定 URL 参数绕过认证。\",\n    \"影响版本 1.2.0 至 1.4.3，已在 1.4.4 中修复。\"\n  ]\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-04",
+    "category": "E08",
+    "with_memory": false,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 9.005632638931274,
+    "tokens": 164,
+    "response_text": "{\"vuln_name\": \"Authentication Bypass\", \"affected_device\": \"Unknown Router\", \"firmware_version\": \"Unknown\", \"vulnerability_type\": \"Authentication Bypass\", \"root_cause\": \"Unknown\", \"impact\": \"Authentication bypass\", \"attack_vector\": \"Unknown\", \"additional_info\": \"Device uses BusyBox and Linux 3.x kernel; requires further verification\"}",
+    "error": null
+  },
+  {
+    "case_id": "A-04",
+    "category": "E08",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 5.205365180969238,
+    "tokens": 714,
+    "response_text": "{\n  \"cve\": null,\n  \"unrelated\": false,\n  \"affected_component\": null,\n  \"affected_versions\": [],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": null,\n  \"summary\": \"某路由器固件可能存在认证绕过问题，但具体型号和版本尚未确认，需进一步验证。目前仅知道该路由器使用 BusyBox 和 Linux 3.x 内核。\",\n  \"evidence\": [\n    \"某路由器固件可能存在认证绕过问题，但具体型号和版本尚未确认，需进一步验证。\",\n    \"目前仅知道该路由器使用 BusyBox 和 Linux 3.x 内核。\"\n  ]\n}",
+    "error": null
+  },
+  {
+    "case_id": "A-05",
+    "category": "E09",
+    "with_memory": false,
+    "passed": false,
+    "e_codes": [
+      "E09"
+    ],
+    "problems": [
+      "[unrelated] 非漏洞事件输入却返回 unrelated=None（发散分析）— E09"
+    ],
+    "latency": 5.119235038757324,
+    "tokens": 187,
+    "response_text": "{\"cve_id\":\"\",\"vulnerability_description\":\"Python 3.12 的 Release Notes 摘要：新增 f-string 语法改进、类型参数语法的支持、以及更友好的错误提示信息。性能方面，字典查找和全局解释器锁都有优化。\",\"affected_component\":\"Python 3.12\",\"vulnerability_type\":\"\",\"severity\":\"\",\"attack_vector\":\"\",\"impact\":\"\",\"poc_reference\":\"\",\"patch_reference\":\"\",\"related_cwe\":\"\"}",
+    "error": null
+  },
+  {
+    "case_id": "A-05",
+    "category": "E09",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 5.348210334777832,
+    "tokens": 733,
+    "response_text": "```json\n{\n  \"cve\": null,\n  \"unrelated\": true,\n  \"affected_component\": null,\n  \"affected_versions\": [],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": null,\n  \"summary\": \"Python 3.12 的 Release Notes 摘要：新增 f-string 语法改进、类型参数语法的支持、以及更友好的错误提示信息。性能方面，字典查找和全局解释器锁都有优化。\",\n  \"evidence\": [\n    \"Python 3.12 的 Release Notes 摘要：新增 f-string 语法改进、类型参数语法的支持、以及更友好的错误提示信息。性能方面，字典查找和全局解释器锁都有优化。\"\n  ]\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-06",
+    "category": "E01",
+    "with_memory": false,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 3.3083887100219727,
+    "tokens": 191,
+    "response_text": "{\n  \"cve_id\": \"CVE-2021-XXXXX\",\n  \"description\": \"一个影响广泛使用的 Java 日志库的严重远程代码执行漏洞，攻击者可通过 JNDI 注入实现 RCE。\",\n  \"cvss_score\": null,\n  \"attack_vector\": \"JNDI注入\",\n  \"impact\": \"远程代码执行\",\n  \"affected_component\": \"广泛使用的Java日志库\"\n}",
+    "error": null
+  },
+  {
+    "case_id": "A-06",
+    "category": "E01",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.614086151123047,
+    "tokens": 780,
+    "response_text": "{\n  \"cve\": null,\n  \"unrelated\": false,\n  \"affected_component\": \"Java 日志库\",\n  \"affected_versions\": [],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": \"NETWORK\",\n  \"summary\": \"一个影响广泛使用的 Java 日志库的严重远程代码执行漏洞，编号为 CVE-2021-XXXXX（具体数字已遮盖，此编号不完整无法直接引用），CVSS 评分未公开。攻击者可通过 JNDI 注入实现 RCE。\",\n  \"evidence\": [\n    \"一个影响广泛使用的 Java 日志库的严重远程代码执行漏洞\",\n    \"编号为 CVE-2021-XXXXX（具体数字已遮盖，此编号不完整无法直接引用）\",\n    \"CVSS 评分未公开\",\n    \"攻击者可通过 JNDI 注入实现 RCE\"\n  ]\n}",
+    "error": null
+  },
+  {
+    "case_id": "A-07",
+    "category": "E01",
+    "with_memory": false,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.684046983718872,
+    "tokens": 180,
+    "response_text": "{\n  \"vulnerability_name\": \"TLS Heartbeat Extension Information Disclosure\",\n  \"description\": \"The heartbeat extension implementation in a TLS library has an information disclosure vulnerability, allowing attackers to read sensitive data from server memory, including private keys and session cookies.\",\n  \"affected_software\": \"A widely deployed TLS library used in web servers\",\n  \"impact\": \"Information disclosure of private keys and session cookies\",\n  \"attack_vector\": \"Network\",\n  \"severity\": \"Critical\"\n}",
+    "error": null
+  },
+  {
+    "case_id": "A-07",
+    "category": "E01",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 5.190056324005127,
+    "tokens": 721,
+    "response_text": "```json\n{\n  \"cve\": null,\n  \"unrelated\": false,\n  \"affected_component\": \"TLS 库\",\n  \"affected_versions\": [],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": \"NETWORK\",\n  \"summary\": \"某 TLS 库的心跳扩展实现存在信息泄露，攻击者可读取服务器内存中的敏感数据，包括私钥和会话 cookie。该漏洞影响广泛部署的 Web 服务器。\",\n  \"evidence\": [\n    \"某 TLS 库的心跳扩展实现存在信息泄露，攻击者可读取服务器内存中的敏感数据，包括私钥和会话 cookie。\",\n    \"该漏洞影响广泛部署的 Web 服务器。\"\n  ]\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-08",
+    "category": "E01",
+    "with_memory": false,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 3.7395131587982178,
+    "tokens": 217,
+    "response_text": "{\n  \"vulnerability_id\": null,\n  \"description\": \"XYZWare Enterprise Platform v7.2 中发现一个输入校验缺陷，远程攻击者可通过提交特制 XML 载荷导致服务进程崩溃。厂商尚未发布补丁。\",\n  \"affected_product\": \"XYZWare Enterprise Platform\",\n  \"affected_version\": \"7.2\",\n  \"vulnerability_type\": \"输入校验缺陷\",\n  \"attack_vector\": \"远程\",\n  \"impact\": \"服务进程崩溃\",\n  \"root_cause\": \"输入校验缺陷\",\n  \"poc\": null,\n  \"patch_status\": \"未发布补丁\",\n  \"references\": []\n}",
+    "error": null
+  },
+  {
+    "case_id": "A-08",
+    "category": "E01",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.954776287078857,
+    "tokens": 724,
+    "response_text": "```json\n{\n  \"cve\": null,\n  \"unrelated\": false,\n  \"affected_component\": \"XYZWare Enterprise Platform\",\n  \"affected_versions\": [\"v7.2\"],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": \"NETWORK\",\n  \"summary\": \"XYZWare Enterprise Platform v7.2 中发现一个输入校验缺陷，远程攻击者可通过提交特制 XML 载荷导致服务进程崩溃。厂商尚未发布补丁。\",\n  \"evidence\": [\n    \"XYZWare Enterprise Platform v7.2 中发现一个输入校验缺陷\",\n    \"远程攻击者可通过提交特制 XML 载荷导致服务进程崩溃\",\n    \"厂商尚未发布补丁\"\n  ]\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-09",
+    "category": "E01",
+    "with_memory": false,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.424719572067261,
+    "tokens": 197,
+    "response_text": "{\n  \"vulnerability_description\": \"某 IP 摄像机的 RTSP 服务在解析 RTP 包时缺少长度校验，可被远程利用执行任意命令。固件版本 v3.4.1 受影响。\",\n  \"affected_product\": \"某 IP 摄像机\",\n  \"affected_component\": \"RTSP 服务\",\n  \"vulnerability_type\": \"缺少长度校验\",\n  \"attack_vector\": \"远程\",\n  \"impact\": \"执行任意命令\",\n  \"affected_version\": \"v3.4.1\"\n}",
+    "error": null
+  },
+  {
+    "case_id": "A-09",
+    "category": "E01",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.631962299346924,
+    "tokens": 736,
+    "response_text": "```json\n{\n  \"cve\": null,\n  \"unrelated\": false,\n  \"affected_component\": \"IP摄像机的RTSP服务\",\n  \"affected_versions\": [\"v3.4.1\"],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": \"NETWORK\",\n  \"summary\": \"某 IP 摄像机的 RTSP 服务在解析 RTP 包时缺少长度校验，可被远程利用执行任意命令。固件版本 v3.4.1 受影响。\",\n  \"evidence\": [\n    \"某 IP 摄像机的 RTSP 服务在解析 RTP 包时缺少长度校验，可被远程利用执行任意命令。\",\n    \"固件版本 v3.4.1 受影响。\"\n  ]\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-10",
+    "category": "E02",
+    "with_memory": false,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.1793506145477295,
+    "tokens": 225,
+    "response_text": "{\n  \"vuln_type\": \"integer overflow\",\n  \"trigger_point\": \"ntdll!RtlpAllocateHeap+0x1a3\",\n  \"root_cause\": \"Size parameter 0xffffffff causes integer overflow, allocating 0x10 bytes but allowing write of 0xffffffff bytes\",\n  \"attack_condition\": {\n    \"controlled_register\": \"RAX=0x4141414141414141\"\n  },\n  \"impact\": \"heap buffer overflow\"\n}",
+    "error": null
+  },
+  {
+    "case_id": "A-10",
+    "category": "E02",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 5.609115123748779,
+    "tokens": 839,
+    "response_text": "```json\n{\n  \"cve\": null,\n  \"unrelated\": false,\n  \"affected_component\": \"ntdll!RtlpAllocateHeap\",\n  \"affected_versions\": [],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": null,\n  \"summary\": \"漏洞触发点在 ntdll!RtlpAllocateHeap+0x1a3 处，当传入的 Size 参数为 0xffffffff 时整数溢出，导致分配 0x10 字节的堆块但可写入 0xffffffff 字节。攻击者控制 RAX=0x4141414141414141。\",\n  \"evidence\": [\n    \"漏洞触发点在 ntdll!RtlpAllocateHeap+0x1a3 处，当传入的 Size 参数为 0xffffffff 时整数溢出，导致分配 0x10 字节的堆块但可写入 0xffffffff 字节。\",\n    \"攻击者控制 RAX=0x4141414141414141。\"\n  ]\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-11",
+    "category": "E02",
+    "with_memory": false,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.559039831161499,
+    "tokens": 195,
+    "response_text": "{\"cve_id\":\"CVE-2024-3094\",\"vulnerability_type\":\"backdoor\",\"affected_software\":\"xz-utils\",\"affected_versions\":[\"5.6.0\",\"5.6.1\"],\"attack_vector\":\"remote\",\"impact\":\"authentication bypass\",\"description\":\"A backdoor in xz-utils interferes with sshd authentication via systemd, allowing a remote attacker with a specific Ed448 key to bypass authentication entirely.\"}",
+    "error": null
+  },
+  {
+    "case_id": "A-11",
+    "category": "E02",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.8925206661224365,
+    "tokens": 786,
+    "response_text": "```json\n{\n  \"cve\": \"CVE-2024-3094\",\n  \"unrelated\": false,\n  \"affected_component\": \"xz-utils\",\n  \"affected_versions\": [\"5.6.0\", \"5.6.1\"],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": \"NETWORK\",\n  \"summary\": \"A backdoor was discovered in xz-utils 5.6.0 and 5.6.1. The malicious code interferes with sshd authentication via systemd, allowing a remote attacker with a specific Ed448 key to bypass authentication entirely.\",\n  \"evidence\": [\n    \"A backdoor was discovered in xz-utils 5.6.0 and 5.6.1.\",\n    \"The malicious code interferes with sshd authentication via systemd, allowing a remote attacker with a specific Ed448 key to bypass authentication entirely.\"\n  ]\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-12",
+    "category": "E02",
+    "with_memory": false,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.234554767608643,
+    "tokens": 159,
+    "response_text": "{\n  \"vulnerability\": {\n    \"component\": \"Linux kernel BPF subsystem\",\n    \"privilege_required\": \"CAP_BPF\",\n    \"impact\": \"local privilege escalation to root\",\n    \"fixed_version\": \"6.1.55\"\n  }\n}",
+    "error": null
+  },
+  {
+    "case_id": "A-12",
+    "category": "E02",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.917548418045044,
+    "tokens": 776,
+    "response_text": "```json\n{\n  \"cve\": null,\n  \"unrelated\": false,\n  \"affected_component\": \"Linux 内核的 BPF 子系统\",\n  \"affected_versions\": [],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": \"LOCAL\",\n  \"summary\": \"该漏洞影响 Linux 内核的 BPF 子系统。攻击者需要 CAP_BPF 权限才能触发。成功利用可导致本地提权至 root。补丁已在 6.1.55 中合入 mainline。\",\n  \"evidence\": [\n    \"该漏洞影响 Linux 内核的 BPF 子系统。\",\n    \"攻击者需要 CAP_BPF 权限才能触发。\",\n    \"成功利用可导致本地提权至 root。\",\n    \"补丁已在 6.1.55 中合入 mainline。\"\n  ]\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-13",
+    "category": "E02",
+    "with_memory": false,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.704070806503296,
+    "tokens": 199,
+    "response_text": "{\"cve_id\":\"CVE-2023-32784\",\"vulnerability_type\":\"DNS rebinding / hostname validation bypass\",\"affected_component\":\"/usr/lib/systemd/systemd-resolved\",\"attack_vector\":\"DNS query with crafted hostname 'example.com\\\\x00.evil.com'\",\"impact\":\"Bypasses hostname validation, resolves to attacker-controlled domain (evil.com) A record\",\"root_cause\":\"Improper handling of null byte in DNS query hostname, leading to validation bypass\"}",
+    "error": null
+  },
+  {
+    "case_id": "A-13",
+    "category": "E02",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.965179681777954,
+    "tokens": 766,
+    "response_text": "```json\n{\n  \"cve\": \"CVE-2023-32784\",\n  \"unrelated\": false,\n  \"affected_component\": \"systemd-resolved\",\n  \"affected_versions\": [],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": \"NETWORK\",\n  \"summary\": \"漏洞位于 /usr/lib/systemd/systemd-resolved 中，DNS 查询 'example.com\\\\x00.evil.com' 可绕过主机名验证，实际解析为 evil.com 的 A 记录。\",\n  \"evidence\": [\n    \"CVE-2023-32784: 漏洞位于 /usr/lib/systemd/systemd-resolved 中，DNS 查询 'example.com\\\\x00.evil.com' 可绕过主机名验证，实际解析为 evil.com 的 A 记录。\"\n  ]\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-14",
+    "category": "E03",
+    "with_memory": false,
+    "passed": false,
+    "e_codes": [
+      "E03"
+    ],
+    "problems": [
+      "[严重程度] 出现禁止字段（越权判定）：\"高\" — E03"
+    ],
+    "latency": 5.322162628173828,
+    "tokens": 266,
+    "response_text": "```json\n{\n  \"漏洞名称\": \"Apache HTTP Server 路径穿越漏洞\",\n  \"漏洞编号\": \"CVE-2023-25690\",\n  \"影响组件\": \"Apache HTTP Server\",\n  \"影响版本\": \"2.4.55\",\n  \"漏洞类型\": \"路径穿越\",\n  \"攻击向量\": \"网络\",\n  \"攻击复杂度\": \"低\",\n  \"所需权限\": \"无\",\n  \"用户交互\": \"无\",\n  \"影响范围\": \"机密性影响高，完整性影响无，可用性影响无\",\n  \"严重程度\": \"高\",\n  \"描述\": \"Apache HTTP Server 2.4.55 中存在路径穿越漏洞，允许攻击者访问 Web 根目录外的文件。\",\n  \"处理建议\": \"升级到 Apache HTTP Server 2.4.56 或更高版本，以修复该漏洞。\"\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-14",
+    "category": "E03",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.569050073623657,
+    "tokens": 702,
+    "response_text": "```json\n{\n  \"cve\": null,\n  \"unrelated\": false,\n  \"affected_component\": \"Apache HTTP Server\",\n  \"affected_versions\": [\"2.4.55\"],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": \"NETWORK\",\n  \"summary\": \"在 Apache HTTP Server 2.4.55 中发现路径穿越漏洞，允许攻击者访问 Web 根目录外的文件。\",\n  \"evidence\": [\n    \"在 Apache HTTP Server 2.4.55 中发现路径穿越漏洞，允许攻击者访问 Web 根目录外的文件。\"\n  ]\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-15",
+    "category": "E03",
+    "with_memory": false,
+    "passed": false,
+    "e_codes": [
+      "E03"
+    ],
+    "problems": [
+      "[severity] 出现禁止字段（越权判定）：\"high\" — E03"
+    ],
+    "latency": 4.383454084396362,
+    "tokens": 147,
+    "response_text": "{\n  \"vulnerability_id\": \"CVE-2023-22809\",\n  \"description\": \"A privilege escalation flaw in sudo 1.9.13 allows a user to execute commands as root via a symlink attack.\",\n  \"severity\": \"high\",\n  \"remediation_timeline\": \"immediate\"\n}",
+    "error": null
+  },
+  {
+    "case_id": "A-15",
+    "category": "E03",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.480710744857788,
+    "tokens": 693,
+    "response_text": "```json\n{\n  \"cve\": null,\n  \"unrelated\": false,\n  \"affected_component\": \"sudo\",\n  \"affected_versions\": [\"1.9.13\"],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": \"LOCAL\",\n  \"summary\": \"A privilege escalation flaw in sudo 1.9.13 allows a user to execute commands as root via a symlink attack.\",\n  \"evidence\": [\n    \"A privilege escalation flaw in sudo 1.9.13 allows a user to execute commands as root via a symlink attack.\"\n  ]\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-16",
+    "category": "E03",
+    "with_memory": false,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.710686683654785,
+    "tokens": 170,
+    "response_text": "{\n  \"cve_id\": \"CVE-2023-44487\",\n  \"description\": \"HTTP/2 Rapid Reset 攻击，利用多路复用的流重置机制造成服务器资源耗尽。\",\n  \"cvss_score\": null,\n  \"attack_type\": \"资源耗尽\",\n  \"affected_protocol\": \"HTTP/2\",\n  \"mechanism\": \"多路复用的流重置机制\"\n}",
+    "error": null
+  },
+  {
+    "case_id": "A-16",
+    "category": "E03",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.956205129623413,
+    "tokens": 737,
+    "response_text": "```json\n{\n  \"cve\": \"CVE-2023-44487\",\n  \"unrelated\": false,\n  \"affected_component\": \"HTTP/2\",\n  \"affected_versions\": [],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": \"NETWORK\",\n  \"summary\": \"CVE-2023-44487: HTTP/2 Rapid Reset 攻击，利用多路复用的流重置机制造成服务器资源耗尽。注意：此公告未附带 CVSS 评分。\",\n  \"evidence\": [\n    \"CVE-2023-44487: HTTP/2 Rapid Reset 攻击，利用多路复用的流重置机制造成服务器资源耗尽。\",\n    \"注意：此公告未附带 CVSS 评分。\"\n  ]\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-17",
+    "category": "E03",
+    "with_memory": false,
+    "passed": false,
+    "e_codes": [
+      "E03"
+    ],
+    "problems": [
+      "[severity] 出现禁止字段（越权判定）：\"紧急\" — E03"
+    ],
+    "latency": 4.734668970108032,
+    "tokens": 162,
+    "response_text": "{\n  \"vulnerability_name\": \"未授权访问缺陷\",\n  \"affected_product\": \"某流行数据库\",\n  \"vulnerability_type\": \"未授权访问\",\n  \"severity\": \"紧急\",\n  \"attack_vector\": \"网络\",\n  \"impact\": \"攻击者可无需密码直接读取所有数据\",\n  \"exploit_status\": \"在野利用已报告\",\n  \"default_configuration\": true\n}",
+    "error": null
+  },
+  {
+    "case_id": "A-17",
+    "category": "E03",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.8988258838653564,
+    "tokens": 695,
+    "response_text": "```json\n{\n  \"cve\": null,\n  \"unrelated\": false,\n  \"affected_component\": \"某流行数据库\",\n  \"affected_versions\": [],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": \"NETWORK\",\n  \"summary\": \"某流行数据库的默认配置中存在未授权访问缺陷，攻击者可无需密码直接读取所有数据。目前已有在野利用报告。\",\n  \"evidence\": [\n    \"某流行数据库的默认配置中存在未授权访问缺陷，攻击者可无需密码直接读取所有数据。\",\n    \"目前已有在野利用报告。\"\n  ]\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-18",
+    "category": "E08",
+    "with_memory": false,
+    "passed": false,
+    "e_codes": [
+      "E01",
+      "E08"
+    ],
+    "problems": [
+      "[affected_component] 原文无此信息却填了 \"未知\"（背景知识污染）— E01",
+      "[affected_component] 不确定信息却以确定口吻填写: 未知… — E08"
+    ],
+    "latency": 4.60886287689209,
+    "tokens": 243,
+    "response_text": "{\n  \"vuln_name\": \"办公自动化系统文件上传绕过\",\n  \"description\": \"据某论坛帖子称，某个办公自动化系统可能存在文件上传绕过，但未提供具体组件名称、版本号、复现步骤和截图。发帖人声称通过某个未公开参数可上传 webshell，但其他用户未能复现。该消息真实性存疑，尚未有任何官方确认。\",\n  \"affected_component\": \"未知\",\n  \"version\": \"未知\",\n  \"reproducibility\": \"未复现\",\n  \"exploit_status\": \"未公开\",\n  \"official_confirmation\": false,\n  \"confidence\": \"低\"\n}",
+    "error": null
+  },
+  {
+    "case_id": "A-18",
+    "category": "E08",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 5.48528790473938,
+    "tokens": 793,
+    "response_text": "```json\n{\n  \"cve\": null,\n  \"unrelated\": false,\n  \"affected_component\": null,\n  \"affected_versions\": [],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": null,\n  \"summary\": \"据某论坛帖子称，某个办公自动化系统可能存在文件上传绕过，但未提供具体组件名称、版本号、复现步骤和截图。发帖人声称通过某个未公开参数可上传 webshell，但其他用户未能复现。该消息真实性存疑，尚未有任何官方确认。\",\n  \"evidence\": [\n    \"据某论坛帖子称，某个办公自动化系统可能存在文件上传绕过，但未提供具体组件名称、版本号、复现步骤和截图。\",\n    \"发帖人声称通过某个未公开参数可上传 webshell，但其他用户未能复现。\",\n    \"该消息真实性存疑，尚未有任何官方确认。\"\n  ]\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-19",
+    "category": "E08",
+    "with_memory": false,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 5.161183834075928,
+    "tokens": 252,
+    "response_text": "{\n  \"vulnerability_description\": \"某 Web 服务器的实验性模块在解析特定网络帧时可能存在问题，大概从最近几个版本开始引入，精确影响范围待确认。据说可能导致服务进程崩溃，但 crash dump 尚未分析。该信息来源于非官方渠道，原帖已被删除。\",\n  \"affected_product\": \"某 Web 服务器\",\n  \"affected_component\": \"实验性模块\",\n  \"vulnerability_type\": \"解析问题\",\n  \"introduced_version\": \"最近几个版本\",\n  \"impact\": \"服务进程崩溃\",\n  \"crash_dump_analyzed\": false,\n  \"information_source\": \"非官方渠道\",\n  \"original_post_deleted\": true,\n  \"confirmed\": false\n}",
+    "error": null
+  },
+  {
+    "case_id": "A-19",
+    "category": "E08",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 5.429609537124634,
+    "tokens": 775,
+    "response_text": "```json\n{\n  \"cve\": null,\n  \"unrelated\": false,\n  \"affected_component\": \"某 Web 服务器的实验性模块\",\n  \"affected_versions\": [],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": null,\n  \"summary\": \"某 Web 服务器的实验性模块在解析特定网络帧时可能存在问题，大概从最近几个版本开始引入，精确影响范围待确认。据说可能导致服务进程崩溃，但 crash dump 尚未分析。该信息来源于非官方渠道，原帖已被删除。\",\n  \"evidence\": [\n    \"某 Web 服务器的实验性模块在解析特定网络帧时可能存在问题\",\n    \"大概从最近几个版本开始引入，精确影响范围待确认\",\n    \"据说可能导致服务进程崩溃，但 crash dump 尚未分析\",\n    \"该信息来源于非官方渠道，原帖已被删除\"\n  ]\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-20",
+    "category": "E08",
+    "with_memory": false,
+    "passed": false,
+    "e_codes": [
+      "E01",
+      "E08"
+    ],
+    "problems": [
+      "[affected_versions] 原文无此信息却填了 \"certain versions (unspecified)\"（背景知识污染）— E01",
+      "[affected_versions] 不确定信息却以确定口吻填写: certain versions (unspecified)… — E08"
+    ],
+    "latency": 4.899618864059448,
+    "tokens": 252,
+    "response_text": "{\n  \"cve_id\": null,\n  \"description\": \"Allegedly, a zero-day vulnerability exists in a popular open-source database that allows authenticated users to bypass row-level security in certain versions. The report remains unverified and the vendor has not responded. No specific version numbers or CVE identifier have been published.\",\n  \"vulnerability_type\": \"row-level security bypass\",\n  \"affected_component\": \"popular open-source database\",\n  \"affected_versions\": \"certain versions (unspecified)\",\n  \"attack_vector\": \"authenticated users\",\n  \"impact\": \"bypass row-level security\",\n  \"verification_status\": \"unverified\",\n  \"vendor_response\": \"no response\",\n  \"poc\": null,\n  \"published_date\": null\n}",
+    "error": null
+  },
+  {
+    "case_id": "A-20",
+    "category": "E08",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.7971765995025635,
+    "tokens": 752,
+    "response_text": "{\n  \"cve\": null,\n  \"unrelated\": false,\n  \"affected_component\": null,\n  \"affected_versions\": [],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": null,\n  \"summary\": \"Allegedly, a zero-day vulnerability exists in a popular open-source database that allows authenticated users to bypass row-level security in certain versions. The report remains unverified and the vendor has not responded. No specific version numbers or CVE identifier have been published.\",\n  \"evidence\": [\n    \"Allegedly, a zero-day vulnerability exists in a popular open-source database that allows authenticated users to bypass row-level security in certain versions.\",\n    \"The report remains unverified and the vendor has not responded.\",\n    \"No specific version numbers or CVE identifier have been published.\"\n  ]\n}",
+    "error": null
+  },
+  {
+    "case_id": "A-21",
+    "category": "E08",
+    "with_memory": false,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 3.4308528900146484,
+    "tokens": 186,
+    "response_text": "```json\n{\n  \"affected_versions\": \"2.5-3.2\",\n  \"unaffected_versions\": \"3.1.4\",\n  \"attack_vector\": \"unknown\",\n  \"notes\": \"版本范围存在争议，有说法称2.x-3.x，但更精确为2.5-3.2；3.1.4可能不受影响；攻击向量可能是网络或本地，无法确认\"\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-21",
+    "category": "E08",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.577166795730591,
+    "tokens": 753,
+    "response_text": "{\n  \"cve\": null,\n  \"unrelated\": false,\n  \"affected_component\": null,\n  \"affected_versions\": [],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": null,\n  \"summary\": \"漏洞影响 2.x-3.x 版本，不对，应该是 2.5-3.2，又有人说 3.1.4 不受影响。攻击向量可能是网络，但也可能是本地——目前没人能确认具体利用方式。\",\n  \"evidence\": [\n    \"漏洞影响 2.x-3.x 版本，不对，应该是 2.5-3.2，又有人说 3.1.4 不受影响。\",\n    \"攻击向量可能是网络，但也可能是本地——目前没人能确认具体利用方式。\"\n  ]\n}",
+    "error": null
+  },
+  {
+    "case_id": "A-22",
+    "category": "E09",
+    "with_memory": false,
+    "passed": false,
+    "e_codes": [
+      "E09"
+    ],
+    "problems": [
+      "[unrelated] 非漏洞事件输入却返回 unrelated=None（发散分析）— E09"
+    ],
+    "latency": 4.655933380126953,
+    "tokens": 240,
+    "response_text": "{\"version\":\"3.1.0\",\"changes\":[{\"type\":\"feature\",\"description\":\"新增暗色主题支持，适配系统偏好设置\"},{\"type\":\"performance\",\"description\":\"优化图片懒加载性能，首屏渲染速度提升 40%\"},{\"type\":\"bugfix\",\"description\":\"修复移动端下拉菜单在 iOS 17 下的触控区域偏移\"},{\"type\":\"improvement\",\"description\":\"改进表格组件在大数据量场景下的虚拟滚动体验\"},{\"type\":\"feature\",\"description\":\"增加导出 PDF 时的自定义页眉页脚功能\"}]}",
+    "error": null
+  },
+  {
+    "case_id": "A-22",
+    "category": "E09",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.653026819229126,
+    "tokens": 792,
+    "response_text": "```json\n{\n  \"cve\": null,\n  \"unrelated\": true,\n  \"affected_component\": null,\n  \"affected_versions\": [],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": null,\n  \"summary\": \"v3.1.0 更新日志，包含暗色主题、图片懒加载、移动端下拉菜单修复、表格虚拟滚动、PDF导出功能等常规功能更新。\",\n  \"evidence\": [\n    \"新增暗色主题支持，适配系统偏好设置\",\n    \"优化图片懒加载性能，首屏渲染速度提升 40%\",\n    \"修复移动端下拉菜单在 iOS 17 下的触控区域偏移\",\n    \"改进表格组件在大数据量场景下的虚拟滚动体验\",\n    \"增加导出 PDF 时的自定义页眉页脚功能\"\n  ]\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-23",
+    "category": "E09",
+    "with_memory": false,
+    "passed": false,
+    "e_codes": [
+      "E09"
+    ],
+    "problems": [
+      "[unrelated] 非漏洞事件输入却返回 unrelated=None（发散分析）— E09"
+    ],
+    "latency": 4.91809344291687,
+    "tokens": 171,
+    "response_text": "{\"vulnerability_id\":null,\"description\":\"2024 Q3 安全团队周会纪要，内容涉及SOC2 Type II审计准备、新员工安全意识培训、第三方供应商安全评估流程评审及下季度渗透测试时间表确认，未包含具体漏洞信息。\",\"severity\":null,\"affected_components\":[],\"remediation\":null,\"references\":[]}",
+    "error": null
+  },
+  {
+    "case_id": "A-23",
+    "category": "E09",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 5.038070917129517,
+    "tokens": 736,
+    "response_text": "```json\n{\n  \"cve\": null,\n  \"unrelated\": true,\n  \"affected_component\": null,\n  \"affected_versions\": [],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": null,\n  \"summary\": \"2024 Q3 安全团队周会纪要，内容涉及 SOC2 Type II 审计准备、安全意识培训、供应商安全评估流程评审及渗透测试时间表确认。\",\n  \"evidence\": [\n    \"2024 Q3 安全团队周会纪要\",\n    \"完成 SOC2 Type II 审计准备工作\",\n    \"讨论新员工安全意识培训方案\",\n    \"评审第三方供应商安全评估流程\",\n    \"下季度渗透测试时间表确认\"\n  ]\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-24",
+    "category": "E09",
+    "with_memory": false,
+    "passed": false,
+    "e_codes": [
+      "E09"
+    ],
+    "problems": [
+      "[unrelated] 非漏洞事件输入却返回 unrelated=None（发散分析）— E09"
+    ],
+    "latency": 4.454264163970947,
+    "tokens": 159,
+    "response_text": "{\"漏洞描述\":\"招聘高级安全工程师：要求熟悉 OWASP Top 10、精通 Web 渗透测试、具备源码审计能力，CISSP/OSCP 认证优先。薪资面议，五险一金。\",\"漏洞类型\":\"无\",\"影响系统\":\"无\",\"攻击路径\":\"无\",\"危害等级\":\"无\",\"修复建议\":\"无\"}",
+    "error": null
+  },
+  {
+    "case_id": "A-24",
+    "category": "E09",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.9220592975616455,
+    "tokens": 721,
+    "response_text": "```json\n{\n  \"cve\": null,\n  \"unrelated\": true,\n  \"affected_component\": null,\n  \"affected_versions\": [],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": null,\n  \"summary\": \"招聘高级安全工程师，要求熟悉 OWASP Top 10、精通 Web 渗透测试、具备源码审计能力，CISSP/OSCP 认证优先。\",\n  \"evidence\": [\n    \"招聘高级安全工程师：要求熟悉 OWASP Top 10、精通 Web 渗透测试、具备源码审计能力，CISSP/OSCP 认证优先。薪资面议，五险一金。\"\n  ]\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-25",
+    "category": "E04",
+    "with_memory": false,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.890489339828491,
+    "tokens": 201,
+    "response_text": "{\n  \"cve_id\": \"CVE-2022-22965\",\n  \"vulnerability_type\": \"RCE\",\n  \"affected_software\": \"Spring Framework\",\n  \"affected_versions\": \"5.3.0-5.3.17, 5.2.0-5.2.19, and earlier unsupported versions\",\n  \"additional_conditions\": \"JDK 9+\"\n}",
+    "error": null
+  },
+  {
+    "case_id": "A-25",
+    "category": "E04",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 5.101041793823242,
+    "tokens": 861,
+    "response_text": "```json\n{\n  \"cve\": \"CVE-2022-22965\",\n  \"unrelated\": false,\n  \"affected_component\": \"Spring Framework\",\n  \"affected_versions\": [\"5.3.0 至 5.3.17\", \"5.2.0 至 5.2.19\", \"更早的不受支持版本\"],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": null,\n  \"summary\": \"CVE-2022-22965: Spring Framework 中的 RCE 漏洞。影响范围：Spring Framework 5.3.0 至 5.3.17、5.2.0 至 5.2.19，以及更早的不受支持版本。JDK 9+ 环境下运行时受影响。\",\n  \"evidence\": [\n    \"CVE-2022-22965: Spring Framework 中的 RCE 漏洞。\",\n    \"影响范围：Spring Framework 5.3.0 至 5.3.17、5.2.0 至 5.2.19，以及更早的不受支持版本。\",\n    \"JDK 9+ 环境下运行时受影响。\"\n  ]\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-26",
+    "category": "E04",
+    "with_memory": false,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.157893657684326,
+    "tokens": 189,
+    "response_text": "{\n  \"cve_id\": \"CVE-2024-21626\",\n  \"description\": \"runc 容器逃逸漏洞\",\n  \"affected_versions\": \"1.1.0-rc.1 至 1.1.11，以及 1.0.0-rc93 之前的版本\",\n  \"fixed_version\": \"1.1.12\"\n}",
+    "error": null
+  },
+  {
+    "case_id": "A-26",
+    "category": "E04",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 5.005764484405518,
+    "tokens": 839,
+    "response_text": "```json\n{\n  \"cve\": \"CVE-2024-21626\",\n  \"unrelated\": false,\n  \"affected_component\": \"runc\",\n  \"affected_versions\": [\"1.1.0-rc.1\", \"1.1.11\", \"1.0.0-rc93\"],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": null,\n  \"summary\": \"CVE-2024-21626: runc 容器逃逸漏洞。影响 runc 1.1.0-rc.1 至 1.1.11，以及 1.0.0-rc93 之前的版本。已在 runc 1.1.12 中修复。\",\n  \"evidence\": [\n    \"CVE-2024-21626: runc 容器逃逸漏洞。\",\n    \"影响 runc 1.1.0-rc.1 至 1.1.11，以及 1.0.0-rc93 之前的版本。\",\n    \"已在 runc 1.1.12 中修复。\"\n  ]\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-27",
+    "category": "E06",
+    "with_memory": false,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.694780349731445,
+    "tokens": 225,
+    "response_text": "{\n  \"vulnerability_id\": \"CVE-2023-46589\",\n  \"affected_component\": \"Apache Tomcat 9.0.80\",\n  \"in_asset_list\": false,\n  \"asset_list\": [\"nginx 1.24.0\", \"redis 7.2.3\", \"PostgreSQL 15.4\"],\n  \"severity\": \"unknown\",\n  \"description\": \"Apache Tomcat 9.0.80 存在反序列化漏洞，但该组件未出现在资产清单中。\"\n}",
+    "error": null
+  },
+  {
+    "case_id": "A-27",
+    "category": "E06",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.968369245529175,
+    "tokens": 759,
+    "response_text": "```json\n{\n  \"cve\": \"CVE-2023-46589\",\n  \"unrelated\": false,\n  \"affected_component\": \"Apache Tomcat\",\n  \"affected_versions\": [\"9.0.80\"],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": null,\n  \"summary\": \"漏洞扫描报告发现 Apache Tomcat 9.0.80 存在 CVE-2023-46589 反序列化漏洞，但该组件未出现在资产清单中。\",\n  \"evidence\": [\n    \"发现 Apache Tomcat 9.0.80 存在 CVE-2023-46589 反序列化漏洞\",\n    \"但该组件未出现在上述资产清单中\"\n  ]\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-28",
+    "category": "E06",
+    "with_memory": false,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.355847358703613,
+    "tokens": 205,
+    "response_text": "{\n  \"target\": \"OpenSSH 9.8p1\",\n  \"cve\": \"CVE-2024-6387\",\n  \"vulnerability_name\": \"regreSSHion\",\n  \"affected_versions\": \"8.5p1 to 9.7p1\",\n  \"fixed_version\": \"9.8p1\",\n  \"target_status\": \"not_vulnerable\"\n}",
+    "error": null
+  },
+  {
+    "case_id": "A-28",
+    "category": "E06",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 5.145065784454346,
+    "tokens": 824,
+    "response_text": "```json\n{\n  \"cve\": \"CVE-2024-6387\",\n  \"unrelated\": false,\n  \"affected_component\": \"OpenSSH\",\n  \"affected_versions\": [\"8.5p1\", \"9.7p1\"],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": null,\n  \"summary\": \"CVE-2024-6387 (regreSSHion) 影响 OpenSSH 8.5p1 至 9.7p1，在 9.8p1 中已修复。当前扫描目标版本 9.8p1 不在受影响范围内。\",\n  \"evidence\": [\n    \"CVE-2024-6387 (regreSSHion) 影响 OpenSSH 8.5p1 至 9.7p1，在 9.8p1 中已修复。\",\n    \"当前扫描目标版本 9.8p1 不在受影响范围内。\"\n  ]\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-29",
+    "category": "E07",
+    "with_memory": false,
+    "passed": false,
+    "e_codes": [
+      "E09"
+    ],
+    "problems": [
+      "[unrelated] 非漏洞事件输入却返回 unrelated=None（发散分析）— E09"
+    ],
+    "latency": 4.395306587219238,
+    "tokens": 119,
+    "response_text": "{\"weather\": \"晴转多云\", \"temperature\": \"22-31°C\", \"wind\": \"东南风3-4级\", \"air_quality\": \"良\", \"advice\": \"携带防晒用品\"}",
+    "error": null
+  },
+  {
+    "case_id": "A-29",
+    "category": "E07",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 3.6089723110198975,
+    "tokens": 610,
+    "response_text": "{\"cve\": null, \"unrelated\": true, \"affected_component\": null, \"affected_versions\": [], \"cwe\": null, \"cvss\": null, \"public_exploit\": \"unknown\", \"attack_vector\": null, \"summary\": null, \"evidence\": []}",
+    "error": null
+  },
+  {
+    "case_id": "A-30",
+    "category": "E07",
+    "with_memory": false,
+    "passed": false,
+    "e_codes": [
+      "E09"
+    ],
+    "problems": [
+      "[unrelated] 非漏洞事件输入却返回 unrelated=None（发散分析）— E09"
+    ],
+    "latency": 4.652582168579102,
+    "tokens": 190,
+    "response_text": "```json\n{\n  \"漏洞描述\": \"asdfghjkl qwertyuiop zxcvbnm 1234567890 lorem ipsum dolor sit amet consectetur adipiscing elit foo bar baz qux quux corge grault garply waldo\",\n  \"关键信息\": {\n    \"漏洞类型\": \"未知\",\n    \"影响组件\": \"未知\",\n    \"攻击向量\": \"未知\",\n    \"影响范围\": \"未知\",\n    \"修复建议\": \"未知\"\n  }\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-30",
+    "category": "E07",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.506464242935181,
+    "tokens": 650,
+    "response_text": "```json\n{\n  \"cve\": null,\n  \"unrelated\": true,\n  \"affected_component\": null,\n  \"affected_versions\": [],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": null,\n  \"summary\": \"输入为无意义的随机字符串，不包含任何漏洞相关信息。\",\n  \"evidence\": []\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-31",
+    "category": "E01",
+    "with_memory": false,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.704039573669434,
+    "tokens": 201,
+    "response_text": "{\n  \"vulnerability_id\": \"SA-2024-0887\",\n  \"description\": \"在 Web 管理控制台的会话管理模块中发现一个会话固定漏洞。攻击者可通过诱导管理员点击特制链接劫持管理会话。\",\n  \"affected_component\": \"Web 管理控制台的会话管理模块\",\n  \"vulnerability_type\": \"会话固定\",\n  \"attack_vector\": \"诱导管理员点击特制链接\",\n  \"impact\": \"劫持管理会话\",\n  \"recommendation\": \"升级至最新版本\"\n}",
+    "error": null
+  },
+  {
+    "case_id": "A-31",
+    "category": "E01",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 5.119680643081665,
+    "tokens": 730,
+    "response_text": "```json\n{\n  \"cve\": null,\n  \"unrelated\": false,\n  \"affected_component\": \"Web 管理控制台的会话管理模块\",\n  \"affected_versions\": [],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": \"NETWORK\",\n  \"summary\": \"安全公告 SA-2024-0887：在 Web 管理控制台的会话管理模块中发现一个会话固定漏洞。攻击者可通过诱导管理员点击特制链接劫持管理会话。建议升级至最新版本。\",\n  \"evidence\": [\n    \"在 Web 管理控制台的会话管理模块中发现一个会话固定漏洞。\",\n    \"攻击者可通过诱导管理员点击特制链接劫持管理会话。\"\n  ]\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-32",
+    "category": "E01",
+    "with_memory": false,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.259506464004517,
+    "tokens": 140,
+    "response_text": "{\"commit_id\": \"a1b2c3d\", \"vulnerability_type\": \"access_control\", \"description\": \"用户输入校验中的潜在问题，特定条件下可能导致未授权数据访问\", \"reporter\": \"@researcher\", \"fix\": \"修复用户输入校验\"}",
+    "error": null
+  },
+  {
+    "case_id": "A-32",
+    "category": "E01",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 5.076746463775635,
+    "tokens": 696,
+    "response_text": "```json\n{\n  \"cve\": null,\n  \"unrelated\": false,\n  \"affected_component\": null,\n  \"affected_versions\": [],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": null,\n  \"summary\": \"commit a1b2c3d: 修复了用户输入校验中的一个潜在问题，该问题在特定条件下可能导致未授权的数据访问。感谢安全研究员 @researcher 的报告。\",\n  \"evidence\": [\n    \"修复了用户输入校验中的一个潜在问题，该问题在特定条件下可能导致未授权的数据访问。\"\n  ]\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-33",
+    "category": "E01",
+    "with_memory": false,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.393532037734985,
+    "tokens": 109,
+    "response_text": "{\"version\":\"4.2\",\"security_enhancements\":true,\"recommendation\":\"upgrade\",\"details\":\"包含多项安全增强和改进，建议所有用户尽快升级\"}",
+    "error": null
+  },
+  {
+    "case_id": "A-33",
+    "category": "E01",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.856455326080322,
+    "tokens": 694,
+    "response_text": "```json\n{\n  \"cve\": null,\n  \"unrelated\": true,\n  \"affected_component\": null,\n  \"affected_versions\": [],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": null,\n  \"summary\": \"版本 4.2 包含了多项安全增强和改进。我们建议所有用户尽快升级以获取最新的安全特性。详细的变更列表请参阅发布说明。\",\n  \"evidence\": [\n    \"版本 4.2 包含了多项安全增强和改进。我们建议所有用户尽快升级以获取最新的安全特性。详细的变更列表请参阅发布说明。\"\n  ]\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-34",
+    "category": "E02",
+    "with_memory": false,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.1948347091674805,
+    "tokens": 141,
+    "response_text": "{\"漏洞编号\":\"CVE-2024-1234\",\"漏洞类型\":\"XSS\",\"漏洞位置\":\"搜索功能\",\"触发条件\":\"用户输入payload <img src=x onerror=alert(1)>\",\"修复方案\":\"对用户输入进行HTML实体编码\"}",
+    "error": null
+  },
+  {
+    "case_id": "A-34",
+    "category": "E02",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.597267150878906,
+    "tokens": 746,
+    "response_text": "```json\n{\n  \"cve\": \"CVE-2024-1234\",\n  \"unrelated\": false,\n  \"affected_component\": \"搜索功能\",\n  \"affected_versions\": [],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": null,\n  \"summary\": \"CVE-2024-1234: XSS 漏洞存在于搜索功能中，payload <img src=x onerror=alert(1)> 可触发。修复方案：对用户输入进行 HTML 实体编码。\",\n  \"evidence\": [\n    \"CVE-2024-1234: XSS 漏洞存在于搜索功能中，payload <img src=x onerror=alert(1)> 可触发。修复方案：对用户输入进行 HTML 实体编码。\"\n  ]\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-35",
+    "category": "E02",
+    "with_memory": false,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.230576276779175,
+    "tokens": 132,
+    "response_text": "{\"漏洞编号\":\"CVE-2024-5678\",\"严重程度\":\"严重\",\"漏洞类型\":\"任意文件读取\",\"利用条件\":\"curl http://target/../../etc/passwd\",\"认证要求\":\"无需认证\"}",
+    "error": null
+  },
+  {
+    "case_id": "A-35",
+    "category": "E02",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.658309698104858,
+    "tokens": 741,
+    "response_text": "{\n  \"cve\": \"CVE-2024-5678\",\n  \"unrelated\": false,\n  \"affected_component\": null,\n  \"affected_versions\": [],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": \"NETWORK\",\n  \"summary\": \"CVE-2024-5678: 严重的任意文件读取漏洞。利用条件：curl http://target/../../etc/passwd。注意：此漏洞无需认证即可利用。\",\n  \"evidence\": [\n    \"CVE-2024-5678: **严重** 的任意文件读取漏洞。\",\n    \"利用条件：`curl http://target/../../etc/passwd`。\",\n    \"> 注意：此漏洞无需认证即可利用。\"\n  ]\n}",
+    "error": null
+  },
+  {
+    "case_id": "A-36",
+    "category": "E03",
+    "with_memory": false,
+    "passed": false,
+    "e_codes": [
+      "E03"
+    ],
+    "problems": [
+      "[严重程度] 出现禁止字段（越权判定）：\"严重\" — E03"
+    ],
+    "latency": 4.7543864250183105,
+    "tokens": 161,
+    "response_text": "{\"漏洞名称\":\"Apache Struts 2.5.30 远程代码执行漏洞\",\"严重程度\":\"严重\",\"紧急程度\":\"紧急\",\"cvss评分\":9.8,\"受影响版本\":\"Apache Struts 2.5.30\",\"攻击向量\":\"网络\",\"攻击复杂度\":\"低\",\"权限要求\":\"无\",\"用户交互\":\"无\",\"影响\":\"远程代码执行\"}",
+    "error": null
+  },
+  {
+    "case_id": "A-36",
+    "category": "E03",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.713534593582153,
+    "tokens": 707,
+    "response_text": "```json\n{\n  \"cve\": null,\n  \"unrelated\": false,\n  \"affected_component\": \"Apache Struts 2.5.30\",\n  \"affected_versions\": [\"2.5.30\"],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": null,\n  \"summary\": \"Apache Struts 2.5.30 においてリモートコード実行の脆弱性が発見されました。\",\n  \"evidence\": [\n    \"Apache Struts 2.5.30 においてリモートコード実行の脆弱性が発見されました。\"\n  ]\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-37",
+    "category": "E03",
+    "with_memory": false,
+    "passed": false,
+    "e_codes": [
+      "E03"
+    ],
+    "problems": [
+      "[severity_score] 越权判定字段 — E03"
+    ],
+    "latency": 5.33695387840271,
+    "tokens": 221,
+    "response_text": "{\n  \"vulnerability\": \"Drupal 10.1.5 未授权访问漏洞\",\n  \"severity_score\": 7,\n  \"reasoning\": \"该漏洞允许匿名用户通过REST API读取未发布的节点内容，属于未授权访问敏感信息。虽然不直接导致远程代码执行或数据篡改，但未发布内容可能包含敏感信息，且攻击门槛低（无需认证），影响机密性。根据CVSS评分，结合网络攻击向量、低复杂度、无权限要求，以及机密性影响为高，但完整性和可用性不受影响，综合评分约为7.0（中高危）。\"\n}",
+    "error": null
+  },
+  {
+    "case_id": "A-37",
+    "category": "E03",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.5887696743011475,
+    "tokens": 702,
+    "response_text": "{\n  \"cve\": null,\n  \"unrelated\": false,\n  \"affected_component\": \"Drupal\",\n  \"affected_versions\": [\"10.1.5\"],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": \"NETWORK\",\n  \"summary\": \"Drupal 10.1.5 存在未授权访问漏洞，匿名用户可通过 REST API 读取未发布的节点内容。\",\n  \"evidence\": [\n    \"Drupal 10.1.5 存在未授权访问漏洞，匿名用户可通过 REST API 读取未发布的节点内容。\"\n  ]\n}",
+    "error": null
+  },
+  {
+    "case_id": "A-38",
+    "category": "E04",
+    "with_memory": false,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.238825798034668,
+    "tokens": 163,
+    "response_text": "{\n  \"cve_id\": \"CVE-2023-20860\",\n  \"component\": \"Spring Security\",\n  \"vulnerability_type\": \"授权绕过\",\n  \"affected_versions\": \"6.x before 6.1.0\",\n  \"fixed_version\": \"6.1.1\",\n  \"description\": \"Spring Security 中的授权绕过漏洞\"\n}",
+    "error": null
+  },
+  {
+    "case_id": "A-38",
+    "category": "E04",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.928395509719849,
+    "tokens": 757,
+    "response_text": "```json\n{\n  \"cve\": \"CVE-2023-20860\",\n  \"unrelated\": false,\n  \"affected_component\": \"Spring Security\",\n  \"affected_versions\": [\"6.1.0 之前的所有 6.x 版本\"],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": null,\n  \"summary\": \"CVE-2023-20860: Spring Security 中的授权绕过。影响 6.1.0 之前的所有 6.x 版本。已在 6.1.1 中修复。\",\n  \"evidence\": [\n    \"CVE-2023-20860: Spring Security 中的授权绕过。\",\n    \"影响 6.1.0 之前的所有 6.x 版本。\",\n    \"已在 6.1.1 中修复。\"\n  ]\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-39",
+    "category": "E04",
+    "with_memory": false,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.407059907913208,
+    "tokens": 318,
+    "response_text": "{\n  \"cve_id\": \"CVE-2024-22201\",\n  \"vulnerability_type\": \"HTTP/2 connection exhaustion\",\n  \"affected_versions\": {\n    \"12.0.0\": \"12.0.1\",\n    \"11.0.16\": \"11.0.19\",\n    \"10.0.16\": \"10.0.19\",\n    \"9.4.51\": \"9.4.53\"\n  },\n  \"fixed_versions\": {\n    \"12.0.2\": \"12.0.2\",\n    \"11.0.20\": \"11.0.20\",\n    \"10.0.20\": \"10.0.20\",\n    \"9.4.54\": \"9.4.54\"\n  }\n}",
+    "error": null
+  },
+  {
+    "case_id": "A-39",
+    "category": "E04",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 5.639599084854126,
+    "tokens": 999,
+    "response_text": "```json\n{\n  \"cve\": \"CVE-2024-22201\",\n  \"unrelated\": false,\n  \"affected_component\": \"Eclipse Jetty HTTP/2\",\n  \"affected_versions\": [\"12.0.0 至 12.0.1\", \"11.0.16 至 11.0.19\", \"10.0.16 至 10.0.19\", \"9.4.51 至 9.4.53\"],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": null,\n  \"summary\": \"CVE-2024-22201: Eclipse Jetty HTTP/2 连接耗尽。影响版本：12.0.0 至 12.0.1、11.0.16 至 11.0.19、10.0.16 至 10.0.19、9.4.51 至 9.4.53。分别在 12.0.2、11.0.20、10.0.20、9.4.54 中修复。\",\n  \"evidence\": [\n    \"CVE-2024-22201: Eclipse Jetty HTTP/2 连接耗尽。\",\n    \"影响版本：12.0.0 至 12.0.1、11.0.16 至 11.0.19、10.0.16 至 10.0.19、9.4.51 至 9.4.53。\",\n    \"分别在 12.0.2、11.0.20、10.0.20、9.4.54 中修复。\"\n  ]\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-40",
+    "category": "E06",
+    "with_memory": false,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.664232492446899,
+    "tokens": 257,
+    "response_text": "```json\n{\n  \"asset_list\": [\n    {\n      \"name\": \"Django\",\n      \"version\": \"4.2.10\"\n    },\n    {\n      \"name\": \"Celery\",\n      \"version\": \"5.3.6\"\n    },\n    {\n      \"name\": \"PostgreSQL\",\n      \"version\": \"16.1\"\n    }\n  ],\n  \"vulnerability\": {\n    \"name\": \"Flask\",\n    \"version\": \"3.0.0\",\n    \"cve_id\": \"CVE-2024-xxxxx\",\n    \"type\": \"任意文件读取\",\n    \"affected\": false,\n    \"reason\": \"Flask 不在资产清单中\"\n  }\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-40",
+    "category": "E06",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.213781356811523,
+    "tokens": 729,
+    "response_text": "```json\n{\n  \"cve\": null,\n  \"unrelated\": true,\n  \"affected_component\": null,\n  \"affected_versions\": [],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": null,\n  \"summary\": \"漏洞通告提及 Flask 3.0.0 存在 CVE-2024-xxxxx 任意文件读取，但 Flask 不在资产清单中。\",\n  \"evidence\": [\n    \"漏洞通告：Flask 3.0.0 存在 CVE-2024-xxxxx 任意文件读取，但 Flask 不在上述资产清单中。\"\n  ]\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-41",
+    "category": "E06",
+    "with_memory": false,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 11.963345050811768,
+    "tokens": 185,
+    "response_text": "{\"vulnerability_id\":\"CVE-2023-0286\",\"affected_versions\":\"OpenSSL 3.0.0 至 3.0.7\",\"patched_version\":\"3.0.7-1\",\"asset_version\":\"OpenSSL 3.0.7\",\"is_vulnerable\":false,\"patch_status\":\"已包含补丁\"}",
+    "error": null
+  },
+  {
+    "case_id": "A-41",
+    "category": "E06",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.883283376693726,
+    "tokens": 805,
+    "response_text": "```json\n{\n  \"cve\": \"CVE-2023-0286\",\n  \"unrelated\": false,\n  \"affected_component\": \"OpenSSL\",\n  \"affected_versions\": [\"3.0.0\", \"3.0.7\"],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": null,\n  \"summary\": \"漏洞 CVE-2023-0286 影响 OpenSSL 3.0.0 至 3.0.7，但具体检查显示 3.0.7 的子版本号 (3.0.7-1) 已包含补丁。\",\n  \"evidence\": [\n    \"漏洞 CVE-2023-0286 影响 OpenSSL 3.0.0 至 3.0.7\",\n    \"但具体检查显示 3.0.7 的子版本号 (3.0.7-1) 已包含补丁\"\n  ]\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-42",
+    "category": "E09",
+    "with_memory": false,
+    "passed": false,
+    "e_codes": [
+      "E09"
+    ],
+    "problems": [
+      "[unrelated] 非漏洞事件输入却返回 unrelated=None（发散分析）— E09"
+    ],
+    "latency": 3.3284616470336914,
+    "tokens": 143,
+    "response_text": "{\"vulnerability\": \"红烧肉做法\", \"severity\": \"低\", \"affected_component\": \"五花肉\", \"attack_vector\": \"热锅凉油\", \"impact\": \"肉块上色，炖煮40分钟\"}",
+    "error": null
+  },
+  {
+    "case_id": "A-42",
+    "category": "E09",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.818700075149536,
+    "tokens": 754,
+    "response_text": "```json\n{\n  \"cve\": null,\n  \"unrelated\": true,\n  \"affected_component\": null,\n  \"affected_versions\": [],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": null,\n  \"summary\": \"红烧肉的做法：五花肉焯水后切块，热锅凉油下冰糖炒至焦糖色，加入肉块翻炒上色，加入料酒、生抽、老抽、八角、桂皮，加水炖煮 40 分钟。\",\n  \"evidence\": [\n    \"红烧肉的做法：五花肉焯水后切块，热锅凉油下冰糖炒至焦糖色，加入肉块翻炒上色，加入料酒、生抽、老抽、八角、桂皮，加水炖煮 40 分钟。\"\n  ]\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-43",
+    "category": "E09",
+    "with_memory": false,
+    "passed": false,
+    "e_codes": [
+      "E01",
+      "E08",
+      "E09"
+    ],
+    "problems": [
+      "[affected_component] 原文无此信息却填了 \"Python decorator\"（背景知识污染）— E01",
+      "[affected_component] 不确定信息却以确定口吻填写: Python decorator… — E08",
+      "[unrelated] 非漏洞事件输入却返回 unrelated=None（发散分析）— E09"
+    ],
+    "latency": 4.353093147277832,
+    "tokens": 117,
+    "response_text": "{\"vulnerability_type\":\"unknown\",\"severity\":\"unknown\",\"affected_component\":\"Python decorator\",\"attack_vector\":\"unknown\",\"impact\":\"unknown\"}",
+    "error": null
+  },
+  {
+    "case_id": "A-43",
+    "category": "E09",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.551149606704712,
+    "tokens": 736,
+    "response_text": "```json\n{\n  \"cve\": null,\n  \"unrelated\": true,\n  \"affected_component\": null,\n  \"affected_versions\": [],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": null,\n  \"summary\": \"Python 装饰器教程：装饰器是一个接受函数作为参数并返回新函数的可调用对象。使用 @decorator_name 语法可以让代码更简洁。常见用途包括日志记录、性能计时和权限检查。\",\n  \"evidence\": [\n    \"Python 装饰器教程：装饰器是一个接受函数作为参数并返回新函数的可调用对象。使用 @decorator_name 语法可以让代码更简洁。常见用途包括日志记录、性能计时和权限检查。\"\n  ]\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-44",
+    "category": "E09",
+    "with_memory": false,
+    "passed": false,
+    "e_codes": [
+      "E09"
+    ],
+    "problems": [
+      "[unrelated] 非漏洞事件输入却返回 unrelated=None（发散分析）— E09"
+    ],
+    "latency": 5.014206886291504,
+    "tokens": 217,
+    "response_text": "```json\n{\n  \"漏洞描述\": \"FastAPI Boilerplate 是一个生产就绪的 FastAPI 项目模板，包含异步支持、自动生成 OpenAPI 文档和内置 JWT 认证功能。\",\n  \"关键信息\": {\n    \"项目类型\": \"FastAPI 项目模板\",\n    \"主要功能\": [\n      \"异步/等待支持\",\n      \"自动生成 OpenAPI 文档\",\n      \"内置 JWT 认证\"\n    ],\n    \"使用方式\": \"pip install -r requirements.txt && uvicorn main:app\"\n  }\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-44",
+    "category": "E09",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.9217658042907715,
+    "tokens": 715,
+    "response_text": "```json\n{\n  \"cve\": null,\n  \"unrelated\": true,\n  \"affected_component\": null,\n  \"affected_versions\": [],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": null,\n  \"summary\": \"该输入为 FastAPI 项目模板的 README 文档，介绍项目特性（异步支持、自动生成 OpenAPI 文档、内置 JWT 认证）和快速启动方式，未提及任何具体漏洞。\",\n  \"evidence\": [\n    \"A production-ready template for FastAPI projects.\",\n    \"Built-in JWT authentication\"\n  ]\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-45",
+    "category": "E09",
+    "with_memory": false,
+    "passed": false,
+    "e_codes": [
+      "E09"
+    ],
+    "problems": [
+      "[unrelated] 非漏洞事件输入却返回 unrelated=None（发散分析）— E09"
+    ],
+    "latency": 4.889978408813477,
+    "tokens": 230,
+    "response_text": "{\"vuln_type\": \"IDOR\", \"endpoint\": \"/api/v2/users/{id}\", \"method\": \"GET\", \"params\": [{\"name\": \"id\", \"in\": \"path\", \"required\": true}], \"auth\": \"required\", \"access_control\": \"missing\", \"description\": \"接口未校验当前用户权限，任意登录用户可通过修改id参数访问其他用户详细信息，导致越权读取敏感数据（如email）。\", \"severity\": \"high\"}",
+    "error": null
+  },
+  {
+    "case_id": "A-45",
+    "category": "E09",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 5.084069490432739,
+    "tokens": 819,
+    "response_text": "```json\n{\n  \"cve\": null,\n  \"unrelated\": true,\n  \"affected_component\": null,\n  \"affected_versions\": [],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": null,\n  \"summary\": \"该输入为 API 接口文档，描述 GET /api/v2/users/{id} 的请求参数、响应格式及错误码，未包含具体漏洞类型或受影响组件名。\",\n  \"evidence\": [\n    \"## GET /api/v2/users/{id}\",\n    \"返回指定用户的详细信息。\",\n    \"### 请求参数\",\n    \"- id (path, required): 用户唯一标识符\",\n    \"### 响应\",\n    \"{\\\"id\\\": 123, \\\"name\\\": \\\"Alice\\\", \\\"email\\\": \\\"alice@example.com\\\"}\",\n    \"### 错误码\",\n    \"- 404: 用户不存在\",\n    \"- 403: 无权限访问\"\n  ]\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-46",
+    "category": "E08",
+    "with_memory": false,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.63852334022522,
+    "tokens": 140,
+    "response_text": "{\"vulnerability_id\": \"BS-2024-0099\", \"status\": \"false_positive\", \"withdrawn\": true, \"description\": \"该漏洞公告已被撤回，确认为误报，相关产品认证机制不受影响。\"}",
+    "error": null
+  },
+  {
+    "case_id": "A-46",
+    "category": "E08",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.968369007110596,
+    "tokens": 721,
+    "response_text": "```json\n{\n  \"cve\": null,\n  \"unrelated\": true,\n  \"affected_component\": null,\n  \"affected_versions\": [],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": null,\n  \"summary\": \"撤回声明：昨日发布的编号为 BS-2024-0099 的安全公告经核实为误报，相关产品认证机制不受影响，请忽略此前公告内容。\",\n  \"evidence\": [\n    \"关于昨日发布的编号为 BS-2024-0099 的安全公告，经进一步核实确认为误报。\",\n    \"相关产品的认证机制不受影响，请忽略此前发布的公告内容。\"\n  ]\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-47",
+    "category": "E08",
+    "with_memory": false,
+    "passed": false,
+    "e_codes": [
+      "E02",
+      "E02",
+      "E02",
+      "E02",
+      "E02",
+      "E02",
+      "E02",
+      "E02",
+      "E02"
+    ],
+    "problems": [
+      "[evidence[4]] 空片段 — E02",
+      "[evidence[8]] 非原文逐字：v… — E02",
+      "[evidence[14]] 空片段 — E02",
+      "[evidence[22]] 空片段 — E02",
+      "[evidence[25]] 空片段 — E02",
+      "[evidence[31]] 空片段 — E02",
+      "[evidence[37]] 空片段 — E02",
+      "[evidence[40]] 空片段 — E02",
+      "[evidence[47]] 空片段 — E02"
+    ],
+    "latency": 4.572450160980225,
+    "tokens": 171,
+    "response_text": "{\n  \"source\": \"reddit\",\n  \"author\": \"u/netsec_guy\",\n  \"claim\": \"secret backdoor in a widely-used VPN client\",\n  \"evidence\": \"none provided, refused to share proof or binary hash\",\n  \"mod_action\": \"post deleted by moderators\",\n  \"credibility\": \"low\"\n}",
+    "error": null
+  },
+  {
+    "case_id": "A-47",
+    "category": "E08",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.84642481803894,
+    "tokens": 747,
+    "response_text": "```json\n{\n  \"cve\": null,\n  \"unrelated\": true,\n  \"affected_component\": null,\n  \"affected_versions\": [],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": null,\n  \"summary\": \"A Reddit post claimed a secret backdoor in a widely-used VPN client, but provided no proof or binary hash, and was deleted by moderators.\",\n  \"evidence\": [\n    \"I saw a post on Reddit where u/netsec_guy claimed that there is a secret backdoor in a widely-used VPN client.\",\n    \"He said 'trust me bro, I decompiled the binary' but refused to share any proof or the binary hash.\",\n    \"Mods deleted the post.\"\n  ]\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-48",
+    "category": "E08",
+    "with_memory": false,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.848107576370239,
+    "tokens": 252,
+    "response_text": "{\n  \"vulnerability\": {\n    \"component\": \"libXYZ\",\n    \"version\": \"2.3\",\n    \"type\": \"use-after-free\",\n    \"impact\": \"RCE\",\n    \"root_privilege_required\": false,\n    \"trigger_condition\": \"先做X再Y，普通用户可触发\",\n    \"reproducibility\": \"未成功复现，可能与编译选项有关\",\n    \"known_issue\": true,\n    \"status\": \"WONTFIX\",\n    \"reported_time\": \"三年前\"\n  }\n}",
+    "error": null
+  },
+  {
+    "case_id": "A-48",
+    "category": "E08",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 5.414113998413086,
+    "tokens": 823,
+    "response_text": "```json\n{\n  \"cve\": null,\n  \"unrelated\": false,\n  \"affected_component\": \"libXYZ\",\n  \"affected_versions\": [\"2.3\"],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": null,\n  \"summary\": \"邮件列表讨论 libXYZ 2.3 存在 use-after-free，可能可导致 RCE，但触发条件存在争议（是否需要 root），且未成功复现，该 bug 三年前已有人报告并标记为 WONTFIX。\",\n  \"evidence\": [\n    \"我发现 libXYZ 2.3 有一个 use-after-free，可导致 RCE\",\n    \"这需要 root 权限才能触发，不算漏洞\",\n    \"不对，如果你先做 X 再 Y，普通用户可以触发\",\n    \"我没有成功复现，可能跟编译选项有关\",\n    \"这个 bug 三年前就有人报过，WONTFIX\"\n  ]\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-49",
+    "category": "E09",
+    "with_memory": false,
+    "passed": false,
+    "e_codes": [
+      "E01",
+      "E09"
+    ],
+    "problems": [
+      "[affected_versions] 原文无此信息却填了 [\"C# 6.0 and later\"]（背景知识污染）— E01",
+      "[unrelated] 非漏洞事件输入却返回 unrelated=None（发散分析）— E09"
+    ],
+    "latency": 4.498611211776733,
+    "tokens": 181,
+    "response_text": "{\"vulnerability_type\":\"NullReferenceException\",\"language\":\"C#\",\"fix_methods\":[\"Check if object is null before accessing properties\",\"Use null-conditional operator '?.'\",\"Use null-coalescing operator '??'\"],\"example_code\":\"var name = person?.Name ?? 'Unknown';\",\"severity\":\"medium\",\"affected_versions\":[\"C# 6.0 and later\"]}",
+    "error": null
+  },
+  {
+    "case_id": "A-49",
+    "category": "E09",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 4.68906831741333,
+    "tokens": 739,
+    "response_text": "```json\n{\n  \"cve\": null,\n  \"unrelated\": true,\n  \"affected_component\": null,\n  \"affected_versions\": [],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": null,\n  \"summary\": \"该内容为C#编程中处理NullReferenceException的问答，不涉及任何漏洞信息。\",\n  \"evidence\": [\n    \"Q: How to fix 'NullReferenceException' in C#?\",\n    \"A: Check if your object is null before accessing its properties.\",\n    \"Use the null-conditional operator '?.' introduced in C# 6.0.\",\n    \"Example: var name = person?.Name ?? 'Unknown';\"\n  ]\n}\n```",
+    "error": null
+  },
+  {
+    "case_id": "A-50",
+    "category": "E09",
+    "with_memory": false,
+    "passed": false,
+    "e_codes": [
+      "E09"
+    ],
+    "problems": [
+      "[unrelated] 非漏洞事件输入却返回 unrelated=None（发散分析）— E09"
+    ],
+    "latency": 4.794971466064453,
+    "tokens": 324,
+    "response_text": "{\n  \"service\": \"CloudSync Pro\",\n  \"plans\": [\n    {\n      \"name\": \"基础版\",\n      \"price\": 99,\n      \"currency\": \"CNY\",\n      \"period\": \"month\",\n      \"storage\": \"100GB\",\n      \"users\": 3\n    },\n    {\n      \"name\": \"专业版\",\n      \"price\": 299,\n      \"currency\": \"CNY\",\n      \"period\": \"month\",\n      \"storage\": \"1TB\",\n      \"users\": 10\n    },\n    {\n      \"name\": \"企业版\",\n      \"price\": 999,\n      \"currency\": \"CNY\",\n      \"period\": \"month\",\n      \"storage\": \"unlimited\",\n      \"users\": \"unlimited\"\n    }\n  ],\n  \"features\": {\n    \"support\": \"24/7\",\n    \"sla\": \"99.9%\"\n  }\n}",
+    "error": null
+  },
+  {
+    "case_id": "A-50",
+    "category": "E09",
+    "with_memory": true,
+    "passed": true,
+    "e_codes": [],
+    "problems": [],
+    "latency": 5.0202131271362305,
+    "tokens": 810,
+    "response_text": "```json\n{\n  \"cve\": null,\n  \"unrelated\": true,\n  \"affected_component\": null,\n  \"affected_versions\": [],\n  \"cwe\": null,\n  \"cvss\": null,\n  \"public_exploit\": \"unknown\",\n  \"attack_vector\": null,\n  \"summary\": \"CloudSync Pro 定价方案介绍，包含基础版、专业版、企业版的价格、存储和用户数，以及技术支持与 SLA 保障。\",\n  \"evidence\": [\n    \"CloudSync Pro 定价方案：\",\n    \"基础版: ¥99/月，包含 100GB 存储和 3 个用户\",\n    \"专业版: ¥299/月，包含 1TB 存储和 10 个用户\",\n    \"企业版: ¥999/月，无限存储和无限用户\",\n    \"所有方案均包含 24/7 技术支持和 99.9% SLA 保障。\"\n  ]\n}\n```",
+    "error": null
+  }
+]
