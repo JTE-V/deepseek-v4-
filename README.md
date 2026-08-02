@@ -1,3 +1,5 @@
+# Memory Entity Protocol 
+[![license](https://img.shields.io/badge/License-Apache%202.0-blue.svg
 ## deepseek-v4-理性改造。
 # 本篇用一些特殊的话术让ai明白如何思考。
 # 内容请看详细文件
