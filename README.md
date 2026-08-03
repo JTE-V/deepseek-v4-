@@ -1,3 +1,4 @@
+# 本项目是耗费巨大做出的一款ai的思维逻辑闭环，可以帮住大家让ai听话，与deepssek算力无关
 # Memory Entity Protocol 
 [![license](https://img.shields.io/badge/License-Apache%202.0-blue.svg
 ## deepseek-v4-理性改造。
